@@ -1,0 +1,33 @@
+# OS-generated files
+.DS_Store
+Thumbs.db
+
+# Build and compiled outputs
+build/
+dist/
+*.exe
+*.dll
+*.so
+
+# Packages and dependencies
+node_modules/
+/venv/
+.venv/
+env/
+
+# Logs and runtime caches
+*.log
+.eslintcache
+.npm/
+
+# IDEs and editors
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# Environmental variables / Secrets
+.env
+.env.local

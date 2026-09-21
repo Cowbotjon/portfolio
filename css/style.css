@@ -1,0 +1,227 @@
+@charset "utf-8";
+*{margin:0; padding:0;}
+
+body {
+	background-image: url(../images/whitewood.png);
+	margin: 0;
+	padding: 0;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12pt;
+	line-height: 1.4;
+	
+	
+}
+
+/* -------------------- Element/tag selectors ---------------------------*/
+ul, ol, dl 
+{ 
+	padding: 0;
+	margin: 0;
+}
+h1, h2, h3, h4, h5, h6, p {
+	margin-top: 0;	 /* removing the top margin gets around an issue where margins can escape from their containing div. The remaining bottom margin will hold it away from any elements that follow. */
+	padding-right: 15px;
+	padding-left: 15px; /* adding the padding to the sides of the elements within the divs, instead of the divs themselves, gets rid of any box model math. A nested div with side padding can also be used as an alternate method. */
+}
+a img { /* this selector removes the default blue border displayed in some browsers around an image when it is surrounded by a link */
+	border: none;
+}
+
+/* ~~ Styling for your site's links must remain in this order - including the group of selectors that create the hover effect. ~~ */
+a:link 
+{	color:#FFFFFF;
+	text-decoration: none; 
+}
+a:visited {
+	color:rgba(204,204,204,1);
+	text-decoration: none;
+}
+a:hover, a:active, a:focus { /* this group of selectors will give a keyboard navigator the same hover experience as the person using a mouse. */
+	text-decoration:none;
+}
+/*------------------------container and content--------------------------*/
+.container
+{
+	width: 80%;
+	max-width: 1260px;
+	min-width: 780px;
+	margin: 50px auto;
+	border-radius:5px;
+	border: medium rgba(255,255,255,1) solid;
+	background-color:rgba(255,255,255,.35);
+	background-image:url(../images/branches-01.png);
+	background-repeat: no-repeat;
+	background-size:cover;
+	background-position:right;
+	overflow:hidden;
+	position:relative;
+	padding-top:40px;
+	padding-bottom:20px;
+}
+
+
+.content 
+{
+	margin:40px auto;
+	position:relative;
+	border:#FFFFFF medium solid;
+	border-radius:5px;
+	width:50%;
+	background-color:rgba(255,255,255,0.6);
+	color:rgba(153,153,153,1);
+		
+}
+/*-----------------------button options----------------------------------*/
+.sidebut
+{
+	width:180px;
+	height:40px;
+	font:Arial, Helvetica, sans-serif;
+	font-size:16pt;
+	color:#FFFFFF;
+	margin-bottom:25px;
+	text-align:center;
+	line-height:40px;
+	border:#FFFFFF medium solid;
+	border-radius:5px;
+	left:-5px;
+	position:relative;
+	background-color:rgba(153,153,153,0.1);
+	transition:background-color ease-in-out .8s;
+}
+
+#sidebar
+{
+	float:left;
+	width:195px;
+	padding-top:50px;
+}
+
+.sidebut:hover
+{
+	background-color:rgba(153,153,153,0.2);
+	opacity:1
+}
+#titlereturn
+{
+	width:100%
+	float:left;
+	marging-left:50px;
+	opacity:.8;
+	
+}
+#mainBut
+{
+	margin-top:40px;
+}
+#paintingBut{}
+#drawingBut{}
+#photoBut{}
+#sculpture{}
+/*----------------------contentlists floats clear------------------------*/
+.content ul, .content ol { 
+	padding: 0 15px 15px 40px; /* this padding mirrors the right padding in the headings and paragraph rule above. Padding was placed on the bottom for space between other elements on the lists and on the left to create the indention. These may be adjusted as you wish. */
+}
+
+/* ~~ miscellaneous float/clear classes ~~ */
+.fltrt {  /* this class can be used to float an element right in your page. The floated element must precede the element it should be next to on the page. */
+	float: right;
+	margin-left: 8px;
+}
+.fltlft { /* this class can be used to float an element left in your page. The floated element must precede the element it should be next to on the page. */
+	float: left;
+	margin-right: 8px;
+}
+.clearfloat { /* this class can be placed on a <br /> or empty div as the final element following the last floated div (within the #container) if the overflow:hidden on the .container is removed */
+	clear:both;
+	height:0;
+	font-size: 1px;
+	line-height: 0px;
+}
+/*------------------------inside of figures------------------------------*/
+figure .inner
+{
+	
+	background-color:rgba(255,255,255,0.6);
+	border:rgba(255,255,255,1) medium solid;
+	border-radius:5px;
+	margin:0 auto;
+	margin-top:50px;
+	color:rgba(153,153,153,1);
+	opacity: 0;
+ 	transition: opacity 1.2s;
+	
+}
+
+.bss-slides figure .inner
+{
+  opacity: 0;
+  transition: opacity 1.2s;
+}
+
+.bss-slides .bss-show .inner{
+  opacity: 1;  
+}
+	
+}
+p
+{
+	margin:10px 10px;
+}
+/*--------------------------form and table-----------------------*/
+table
+{
+	margin:5px auto;
+	border-collapse:collapse;
+	border:none;
+	background-color:rgba(255,255,255,0.6);
+	border:rgba(255,255,255,1) medium solid;
+	border-radius:5px;
+	color:rgba(153,153,153,1);
+	text-align:right;
+	font:Verdana, Arial, Helvetica, sans-serif;
+	font-size:12pt;
+}
+table tr td
+{
+	padding-top:5px;
+}
+
+form
+{
+	border:none;
+	color:rgba(153,153,153,1);
+	font: 100%/1.4 Verdana, Arial, Helvetica, sans-serif;
+}
+select
+{
+	color:rgba(153,153,153,1);
+	font: 100%/1.4 Verdana, Arial, Helvetica, sans-serif;
+}
+
+input
+{
+	font:Verdana, Arial, Helvetica, sans-serif;
+	font-size:12pt;
+	color:rgba(153,153,153,1);
+	text-align:right;
+	background-color:rgba(153,153,153,0.1);
+	border:rgba(255,255,255,1) medium solid;
+}
+input:-webkit-autofill
+{
+	background-color:rgba(153,153,153,0.3);
+	color:rgba(153,153,153,1);
+	
+}
+#submit
+{
+	transition:background-color ease-in-out .8s;
+	
+	
+}
+#submit:hover
+{
+	background-color:rgba(153,153,153,0.3);
+	opacity:1
+}
