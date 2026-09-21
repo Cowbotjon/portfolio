@@ -6,4 +6,3 @@ Welcome to the portfolio of Jon Keane, showcasing a collection of artistic works
 - HTML
 - CSS
 - JavaScript
-- Flash

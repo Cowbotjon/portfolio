@@ -73,13 +73,13 @@
 }
 .bss-next{
   right: -3px;
-  background-image:url(../images/next-01.png);
+  background-image:url(../images/next_01.png);
   border-bottom-left-radius: 5px;
   
 }
 .bss-prev{
   left: 3px;
-  background-image:url(../images/prev-01-01.png);
+  background-image:url(../images/prev_01_01.png);
   border-bottom-right-radius: 5px;
 }
 .bss-fullscreen{
