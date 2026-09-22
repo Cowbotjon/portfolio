@@ -2,9 +2,9 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-    <title>Jon Keane - Photography</title>
+    <title>Jon Keane - About</title>
+    <!-- Include the CSS file for styling -->
     <link href="css/style.css" rel="stylesheet" type="text/css"/>
-
     <link href="css/simple_slideshow_styles.css" rel="stylesheet" type="text/css"/>
 
     <!-- Add open graph meta tags for social media sharing -->
@@ -16,22 +16,22 @@
     <meta property="og:site_name" content="Jon Keane Art"/>
     <meta property="og:image:width" content="1200"/>
     <meta property="og:image:height" content="630"/>
+
     <!-- Add Twitter card meta tags for social media sharing -->
     <meta name="twitter:card" content="summary_large_image"/>
     <meta name="twitter:title" content="Jon Keane Art - About"/>
     <meta name="twitter:description" content="Jon Keane is an artist from Montreal, Quebec, Canada"/>
     <meta name="twitter:image" content="images/jka-twittercard.png"/>
-
 </head>
 
 <body>
 
 <div class="container">
-    <!-------------------------------title------------------------------>
+    <!-- Site Title -->
     <div id="titlereturn">
         <a href="index.php"><img src="images/title.png" width="400" height="91"/></a>
     </div>
-    <!--------------------------------sidebar and buttons------------------>
+    <!-- Sidebar Navigation -->
     <div id="sidebar">
         <a href="drawing.php">
             <div class="sidebut">Drawing</div>
@@ -49,10 +49,9 @@
             <div class="sidebut active">About</div>
         </a>
     </div>
-    <!------------------------------content----------------------------->
-
+    <!-- Main Content Area -->
     <div class="content">
-        <p>Jon Keane is a 31 year old artist living and working in Montreal Quebec. Currently working as a substitute teacher, Jon is a qualified art teacher, but is looking to expand his practice.
+        <p>Jon Keane is a 31-year-old artist living and working in Montreal Quebec. Currently working as a substitute teacher, Jon is a qualified art teacher, but is looking to expand his practice.
             </br>
             </br>
             Interested in a variety of media, Jon paints, draws, makes sculptures and installations, takes black and white 35mm photography, and creates digital artworks, including this website.
@@ -60,8 +59,9 @@
             </br>
             For more information about Jon, or to see some of his other work, take a look below.
         </p>
-
     </div>
-    <!-- end .container --></div>
+</div>
+<div class="copyright"><p>&copy; <?php echo date( "Y" ); ?> Jon Keane Art. All rights reserved.</p></div>
+
 </body>
 </html>

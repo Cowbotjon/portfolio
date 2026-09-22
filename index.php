@@ -3,9 +3,11 @@
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
     <title>Jon Keane Art</title>
+    <!-- Include the CSS file for styling -->
     <link href="css/style.css" rel="stylesheet" type="text/css"/>
-
     <link href="css/simple_slideshow_styles.css" rel="stylesheet" type="text/css"/>
+
+    <!-- Include the JavaScript file for rendering the site title -->
     <script src="javascript/site_title.js" type="text/javascript"></script>
 
     <!-- Add open graph meta tags for social media sharing -->
@@ -28,11 +30,13 @@
 
 <body>
 <div class="container">
+    <!-- Site Title -->
     <div id="site-title"></div>
     <script type="text/javascript">
         renderSiteTitle("site-title", "images/title.png", "index.php");
     </script>
 
+    <!-- Sidebar Navigation -->
     <div id="mainBut">
         <a href="drawing.php">
             <div class="sidebut">Drawing</div>
@@ -51,5 +55,8 @@
         </a>
     </div>
 </div>
+
+<div class="copyright"><p>&copy; <?php echo date( "Y" ); ?> Jon Keane Art. All rights reserved.</p></div>
+
 </body>
 </html>
