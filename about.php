@@ -5,13 +5,13 @@
     <title>Jon Keane - Photography</title>
     <link href="css/style.css" rel="stylesheet" type="text/css"/>
 
-    <link href="css/simple_slideshow_styles_tests.css" rel="stylesheet" type="text/css"/>
+    <link href="css/simple_slideshow_styles.css" rel="stylesheet" type="text/css"/>
 
     <!-- Add open graph meta tags for social media sharing -->
     <meta property="og:title" content="Jon Keane Art - About"/>
     <meta property="og:description" content="Jon Keane is an artist from Montreal, Quebec, Canada"/>
     <meta property="og:image" content="images/jka-twittercard.png"/>
-    <meta property="og:url" content="index.html"/>
+    <meta property="og:url" content="index.php"/>
     <meta property="og:type" content="website"/>
     <meta property="og:site_name" content="Jon Keane Art"/>
     <meta property="og:image:width" content="1200"/>
@@ -29,23 +29,23 @@
 <div class="container">
     <!-------------------------------title------------------------------>
     <div id="titlereturn">
-        <a href="index.html"><img src="images/title.png" width="400" height="91"/></a>
+        <a href="index.php"><img src="images/title.png" width="400" height="91"/></a>
     </div>
     <!--------------------------------sidebar and buttons------------------>
     <div id="sidebar">
-        <a href="drawing.html">
+        <a href="drawing.php">
             <div class="sidebut">Drawing</div>
         </a>
-        <a href="painting.html">
+        <a href="painting.php">
             <div class="sidebut">Painting</div>
         </a>
-        <a href="photography.html">
+        <a href="photography.php">
             <div class="sidebut">Photography</div>
         </a>
-        <a href="sculpture.html">
+        <a href="sculpture.php">
             <div class="sidebut">Sculpture</div>
         </a>
-        <a href="about.html" aria-current="page">
+        <a href="about.php" aria-current="page">
             <div class="sidebut active">About</div>
         </a>
     </div>
@@ -62,36 +62,6 @@
         </p>
 
     </div>
-
-
-    <form id="form1" name="form1" method="post" action="">
-        <table width="400" border="1">
-            <tr>
-                <td> Keep in touch with Jon</td>
-            </tr>
-            <tr>
-                <td>What interested you the most?</td>
-                <td><select name="art list">
-                    <option>Drawing</option>
-                    <option>Painting</option>
-                    <option>Photography</option>
-                    <option>Sculpture</option>
-                </select>
-                </td>
-
-            </tr>
-            <tr>
-                <td><input name="email" type="text" value="enter email"/></td>
-
-            </tr>
-
-            <tr>
-                <td><input id="submit" name="submit" type="submit" value="Send"/></td>
-            </tr>
-        </table>
-    </form>
-
-
     <!-- end .container --></div>
 </body>
 </html>

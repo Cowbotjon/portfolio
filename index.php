@@ -5,24 +5,24 @@
     <title>Jon Keane Art</title>
     <link href="css/style.css" rel="stylesheet" type="text/css"/>
 
-    <link href="css/simple_slideshow_styles_tests.css" rel="stylesheet" type="text/css"/>
+    <link href="css/simple_slideshow_styles.css" rel="stylesheet" type="text/css"/>
     <script src="javascript/site_title.js" type="text/javascript"></script>
 
-	<!-- Add open graph meta tags for social media sharing -->
-	<meta property="og:title" content="Jon Keane Art"/>
-	<meta property="og:description" content="Jon Keane is an artist from Montreal, Quebec, Canada"/>
-	<meta property="og:image" content="images/jka-twittercard.png"/>
-	<meta property="og:url" content="index.html"/>
+    <!-- Add open graph meta tags for social media sharing -->
+    <meta property="og:title" content="Jon Keane Art"/>
+    <meta property="og:description" content="Jon Keane is an artist from Montreal, Quebec, Canada"/>
+    <meta property="og:image" content="images/jka-twittercard.png"/>
+    <meta property="og:url" content="index.php"/>
     <meta property="og:type" content="website"/>
     <meta property="og:site_name" content="Jon Keane Art"/>
     <meta property="og:image:width" content="1200"/>
     <meta property="og:image:height" content="630"/>
 
-	<!-- Add Twitter card meta tags for social media sharing -->
-	<meta name="twitter:card" content="summary_large_image"/>
-	<meta name="twitter:title" content="Jon Keane Art"/>
-	<meta name="twitter:description" content="Jon Keane is an artist from Montreal, Quebec, Canada"/>
-	<meta name="twitter:image" content="images/jka-twittercard.png"/>
+    <!-- Add Twitter card meta tags for social media sharing -->
+    <meta name="twitter:card" content="summary_large_image"/>
+    <meta name="twitter:title" content="Jon Keane Art"/>
+    <meta name="twitter:description" content="Jon Keane is an artist from Montreal, Quebec, Canada"/>
+    <meta name="twitter:image" content="images/jka-twittercard.png"/>
 
 </head>
 
@@ -30,24 +30,24 @@
 <div class="container">
     <div id="site-title"></div>
     <script type="text/javascript">
-        renderSiteTitle("site-title", "images/title.png", "index.html");
+        renderSiteTitle("site-title", "images/title.png", "index.php");
     </script>
 
     <div id="mainBut">
-        <a href="drawing.html">
+        <a href="drawing.php">
             <div class="sidebut">Drawing</div>
         </a>
-        <a href="painting.html">
+        <a href="painting.php">
             <div class="sidebut">Painting</div>
         </a>
-        <a href="photography.html">
+        <a href="photography.php">
             <div class="sidebut">Photography</div>
         </a>
-        <a href="sculpture.html">
+        <a href="sculpture.php">
             <div class="sidebut">Sculpture</div>
         </a>
-        <a href="about.html" aria-current="page">
-            <div class="sidebut active">About</div>
+        <a href="about.php">
+            <div class="sidebut">About</div>
         </a>
     </div>
 </div>

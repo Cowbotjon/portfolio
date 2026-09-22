@@ -4,5 +4,6 @@ Welcome to the portfolio of Jon Keane, showcasing a collection of artistic works
 
 ## Technologies Used
 - HTML
+- PHP
 - CSS
 - JavaScript
