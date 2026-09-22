@@ -86,7 +86,7 @@ a:hover, a:active, a:focus { /* this group of selectors will give a keyboard nav
 	border-radius:5px;
 	left:-5px;
 	position:relative;
-	background-color:rgba(153,153,153,0.1);
+	background-color:rgba(55,55,55,0.78);
 	transition:background-color ease-in-out .8s;
 }
 
@@ -99,8 +99,21 @@ a:hover, a:active, a:focus { /* this group of selectors will give a keyboard nav
 
 .sidebut:hover
 {
-	background-color:rgba(153,153,153,0.2);
+	background-color:rgba(30,30,30,0.9);
 	opacity:1
+}
+
+.sidebut.active
+{
+	background-color:#202020;
+	box-shadow:0 0 0 3px rgba(255,255,255,0.75);
+	font-weight:bold;
+}
+
+.sidebut:focus
+{
+	outline:3px solid #202020;
+	outline-offset:3px;
 }
 #titlereturn
 {
