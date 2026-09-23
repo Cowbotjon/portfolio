@@ -60,7 +60,7 @@
     <div class="bss-slides num1" tabindex="1" autofocus="autofocus">
 
         <figure>
-            <img src="images/painting/pheonix.png" width="100%"/>
+            <img src="images/painting/phoenix.png" width="100%"/>
             <div class="inner">
                 <p>This painting is the first in a series in which I explored some iconic imagery, and contrasted it with the unexpected. Drawing from a variety of influential element of my life, I made these portraits as an attempt to subvert them and change their meaning.
                     </br>
@@ -103,7 +103,7 @@
             fullScreen: false,
             swipe: true
         };
-        makeBSS('.num1');
+        makeBSS('.num1', opts);
     </script>
     <!-- end slideshow -->
 </div>
