@@ -1,3 +1,9 @@
+<?php
+/**
+ * Jon Keane Art - Painting Page
+ */
+?>
+
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
@@ -28,7 +34,7 @@
 
 <div class="container">
     <div id="titlereturn">
-        <a href="index.php"><img src="images/title.png" width="400" height="91"/></a>
+        <a href="index.php"><img src="images/title.png" width="400" height="91" alt="Jon Keane Art"/></a>
     </div>
 
     <!-- Sidebar Navigation -->

@@ -1,3 +1,9 @@
+<?php
+/**
+ * Jon Keane Art - Home Page
+ */
+?>
+
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
@@ -6,9 +12,6 @@
     <!-- Include the CSS file for styling -->
     <link href="css/style.css" rel="stylesheet" type="text/css"/>
     <link href="css/simple_slideshow_styles.css" rel="stylesheet" type="text/css"/>
-
-    <!-- Include the JavaScript file for rendering the site title -->
-    <script src="javascript/site_title.js" type="text/javascript"></script>
 
     <!-- Add open graph meta tags for social media sharing -->
     <meta property="og:title" content="Jon Keane Art"/>
@@ -31,10 +34,9 @@
 <body>
 <div class="container">
     <!-- Site Title -->
-    <div id="site-title"></div>
-    <script type="text/javascript">
-        renderSiteTitle("site-title", "images/title.png", "index.php");
-    </script>
+    <div id="titlereturn">
+        <a href="index.php"><img src="images/title.png" width="400" height="91"/></a>
+    </div>
 
     <!-- Sidebar Navigation -->
     <div id="mainBut">

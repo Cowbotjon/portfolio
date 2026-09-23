@@ -7,3 +7,4 @@ Welcome to the portfolio of Jon Keane, showcasing a collection of artistic works
 - PHP
 - CSS
 - JavaScript
+- [Better Simple Slideshow](https://github.com/leemark/better-simple-slideshow)
